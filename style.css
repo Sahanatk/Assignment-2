@@ -1,0 +1,15 @@
+
+.nav {
+
+    display: inline-block;
+    background-color: lightgray;
+    border-block: 1px solid lightgray; 
+    padding:12px;
+    color:red;
+    text-decoration: none;
+    
+}
+   .main footer{
+    font-size:13px
+    color:blue;
+}

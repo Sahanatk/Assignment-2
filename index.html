@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
-    <link href="style.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Home Page</title>
+<style>
+    .nav a {
+        display: inline-flex;
+        background-color: lightgray;
+        padding:8px;
+        color:red;
+        text-decoration: none;
+        width: 150px;
+        font-weight: bold;
+        border: 2px solid darkgrey;
+        }
+</style>
+<link href="style.css" rel="stylesheet">
 </head>
-<!--<body style="width:960px;margin:0 20px;">-->
-
-<body>
-<div class="main">
+<body style="width:960px;margin:0 20px;">
 <p><h2>Home Page</h2></p><br>
 <header>
     <img src="images/header.gif" alt="My Header">
 </header><br>
     <nav>
-        <span class="nav"><a href="index.html" type="text/html" tabindex="1" accesskey="h" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Home</a></span>
-        <span class="nav"><a href="aboutus.html" type="text/html" tabindex="2" accesskey="a" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>About Us</a></span>
-        <span class="nav"><a href="solutions.html" type="text/html" tabindex="3" accesskey="s"download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Solutions</a></span>
-        <span class="nav"><a href="contact.html" type="text/html" tabindex="4" accesskey="c" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Contact</a></span>
+        <span class="nav"><a href="index.html" type="text/html" tabindex="1" accesskey="h" draggable="true" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Home</a></span>
+        <span class="nav"><a href="aboutus.html" type="text/html" tabindex="2" accesskey="a" draggable="true" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>About Us</a></span>
+        <span class="nav"><a href="solutions.html" type="text/html" tabindex="3" accesskey="s"draggable="true" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Solutions</a></span>
+        <span class="nav"><a href="contact.html" type="text/html" tabindex="4" accesskey="c" draggable="true" download> <span style="color:darkgrey";>&#10070;&nbsp;</span>Contact</a></span>
     </nav>
 
 <section>
@@ -49,7 +58,7 @@ Founder and CEO<br>
 </section>
 <hr>
 <footer>
-    <p>Copyright &copy; 2016-All rights reserved
+    <p><small> &copy; 2016-All rights reserved</small>
 </footer>
 </div>
 </body>
